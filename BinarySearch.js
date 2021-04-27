@@ -43,3 +43,8 @@ const myList = [1,3,5,7,9]
 
 console.log(binarySearch(myList,3))
 console.log(binarySearch(myList,-1))
+
+
+// Big O
+// Time Complexity  = O(log n) because with each run we logrithmic decrease the number of checks needed to find the target item
+//Space Complexity  
