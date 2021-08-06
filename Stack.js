@@ -1,5 +1,6 @@
 // Create a stack class that has the pop and push methods that follow LIFO.
-// Adding and removing from a stack using a SLL, is constant time
+// Adding and removing from a stack using a SLL, is constant time. Can be created using an array as well.
+// Stacks are used in recursion(call stack), in undo/redo, and internet history.
 
 
 // The Node class is needed as a way to store data. The node has properties of value and next.
@@ -49,9 +50,8 @@ class Stack {
     if(!this.first) return null;
     // store the first value temporarily
     const temp = this.first;
-    // If there is only 1 item in the stack reassign the first and last values to be null.
+    // If there is only 1 item in the stack reassign last value to be null.
     if(this.first === this.last){
-      this.first = null;
       this.last = null;
     }else{
       // if there is more than 1 item in the stack reassign the first to be the old first's next value.
@@ -69,3 +69,10 @@ const newStack = new Stack()
 newStack.push('first');
 newStack.push('second');
 newStack.push('third');
+
+
+// Big O - Rem stacks should prioritize insertion and removal.
+// Insertion and Removal O(1)
+// Searching and Access O(n)
+
+// Using an array would be O(n) time for insertion and removal
