@@ -1,5 +1,5 @@
 //Function takes a sorted array and an item
-//To conduct a binary search its important to have a sorted array becuase this allows you to dived at the midepoint and have a lesser half and a greater half.
+//To conduct a binary search its important to have a sorted array becuase this allows you to dived at the midpoint and have a lesser half and a greater half.
 //If the item exsists return the position else return null.
 
 const binarySearch = (array,item) => {
@@ -47,4 +47,4 @@ console.log(binarySearch(myList,-1))
 
 // Big O
 // Time Complexity  = O(log n) because with each run we logrithmic decrease the number of checks needed to find the target item
-//Space Complexity  
+//Space Complexity
