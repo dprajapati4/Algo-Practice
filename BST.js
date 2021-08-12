@@ -103,7 +103,7 @@ class BinarySearchTree {
     // creater a helper function which helps accept a node
     function traverse(node) {
       // push the value of node to data array.
-      data.push(node);
+      data.push(node.value);
       // if node has a left node call the helper function on the left node
       if (node.left) traverse(node.left);
       // if the node has right node, call the helper function on the right node
@@ -113,12 +113,11 @@ class BinarySearchTree {
     traverse(current);
     return data;
   }
-
   // Visit a node/the root after looking at the left and the right(all the children). Gives us numbers in order
   PostOrder() {
     // Create a variable to store the values of the nodes visited and initialize the current node at the root
     const data = [];
-    const current = this.root;
+    let current = this.root;
     // Create a helper function that you call recursively to traverse all the children first and then the root/parent node
     function traverse(node) {
       // Check if there is a left or a right node if there is call traverse recursively on that node
@@ -127,12 +126,27 @@ class BinarySearchTree {
 
       // if there is no left or right nodes, push that node into the data list
 
-      data.push(node);
+      data.push(node.value);
     }
 
     traverse(current);
 
     return data;
+  }
+  // Traverse the entire left side, then the node and then all the right side
+  InOrder(){
+  // Create a variable to store the visited node values and initalize the current node at the root
+  const data = [];
+  let current = this.root;
+  // Use a helper function to recursively call on to traverse all the left before visiting the node and then all the right
+  function traverse (node){
+    if(node.left) traverse(node.left);
+    data.push(node.value);
+    if(node.right) traverse(node.right);
+  }
+  traverse(current)
+  return data
+
   }
 }
 
@@ -142,9 +156,19 @@ tree.insert(5);
 tree.insert(13);
 tree.insert(2);
 
-console.log(tree.PostOrder());
+console.log(tree.InOrder());
 
 // Big O
 // Insertion/ Searching O(log n)
 // When you double the size of the BST, you only increase the number of steps to find/insert by 1.
 // But this is not guaranteed. For example and extremely one side BST
+
+// BFS vs DFS
+// Time complexity is the same, you visit each node one time.
+// However space complexity may differ.When a tree is a lot wider/more siblings than it is deep/more children you would have to store more nodes in the queue if you do BFS. But in DPS you only need to keep track of nodes in the branch in the queue.
+// If you have a deep tree with many children and no to few children BFS would take less space up in the queue.
+
+// PreOrder vs PostOrder vs InOrder
+// InOrder gives you data in order.
+// PreOrder is good if you want to store or duplicate/reconstruct the tree.
+//
