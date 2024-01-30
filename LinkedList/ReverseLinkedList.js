@@ -1,6 +1,6 @@
 // Given the head of a singly linked list, reverse the list, and return the reversed list.
 
-// Approach: We can use three pointers to keep track of the current, previous, and next nodes. We can initialize the current node as the head and the previous and next nodes as null.
+// Iterative Approach: We can use three pointers to keep track of the current, previous, and next nodes. We can initialize the current node as the head and the previous and next nodes as null.
 // We can then loop through the array and move the pointers forward until the current node is null.
 
 const reverseList = (head) => {
@@ -27,3 +27,24 @@ const reverseList = (head) => {
 
 //BigO Time Complexity: O(n) -> one for loop
 //BigO Space Complexity: O(1) -> storing the values in variables
+
+// Recursive Approach: We can use a recursive function to reverse the list. We can initialize the current node as the head and the previous and next nodes as null.
+
+const reverseListRecursive = (head) => {
+  //base case
+  if (head === null || head.next === null) {
+    return head;
+  }
+
+  //recursive call
+  let reversedListHead = reverseListRecursive(head.next);
+
+  // Set head node as head.next.next
+  head.next.next = head;
+  //set head's next to be null
+  head.next = null;
+  return reversedListHead;
+};
+
+//BigO Time Complexity: O(n) -> one for loop
+//BigO Space Complexity: O(n) -> recursive call stack
