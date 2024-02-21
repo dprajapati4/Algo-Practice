@@ -3,9 +3,11 @@
 A repository of my algorithm practice.
 
 ## Data Structures
+
 ---
--  [Binary Search Tree](ADTs/BST.js)
-  - [Binary Search](ADTs/BinarySearch.js)
+
+- [Binary Search Tree](ADTs/BST.js)
+- [Binary Search](ADTs/BinarySearch.js)
 - [Hash Table](ADTs/HashTable.js)
 - [Stack](ADTs/Stack.js)
 - [Linked List]()
@@ -13,9 +15,35 @@ A repository of my algorithm practice.
 - [Priority Queue](ADTs/PriorityQueue.js)
   - [Binary Heaps](ADTs/BinaryHeaps.js)
 
-## Sorting Algorithms
-- [Selection Sort](Sorting_Algorithms/SelectionSort.js)
-
 ## Arrays
+
 - [Two Sum](Arrays/TwoSum.js)
 - [Validate Subsequence](Arrays/ValidateSubsequence.js)
+
+## Dynamic Programming
+
+- [Climbing Stairs](DynamicProgramming/ClimbingStairs.js)
+- [Range Sum Query](DynamicProgramming/RangeSumQuery.js)
+
+## Greedy Algorithms
+
+- [Buy And Sell Stocks](Greedy/BuySellStocks.js)
+
+## Linked List
+
+- [Doubly Linked List](LinkedList/DoublyLinkedList.js)
+- [Find Nth Last Element](LinkedList/FindNthLastElementSLL.js)
+- [Intersection of Two Linked Lists](LinkedList/IntersectionOfTwoLL.js)
+- [Linked List Cycle](LinkedList/LinkedListCyle.js)
+- [Merge Two Sorted Lists](LinkedList/MergeTwoSortedLists.js)
+- [Middle of the Linked List](LinkedList/MiddleOfLinkedList.js)
+- [Palindrome Linked List](LinkedList/PalindromeLinkedList.js)
+- [Remove Duplicates from Linked List](LinkedList/RemoveDuplicatesFromLinkedList.js)
+- [Remove Item From Linked List](LinkedList/RemoveItemLinkedList.js)
+- [Reverse Linked List](LinkedList/ReverseLinkedList.js)
+- [Singly Linked List](LinkedList/SinglyLinkedList.js)
+- [Swap Nodes](LinkedList/SwapNodesSLL.js)
+
+## Sorting Algorithms
+
+- [Selection Sort](Sorting_Algorithms/SelectionSort.js)
