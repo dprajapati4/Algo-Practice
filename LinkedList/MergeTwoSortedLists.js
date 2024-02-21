@@ -33,3 +33,18 @@ const mergeTwoLists = (list1, list2) => {
 
 //BigO Time Complexity: O(n) -> one for loop
 //BigO Space Complexity: O(1) -> no extra space used only two pointers and one dummy node created regardless of the size of the linked list
+
+// Recursive Approach: We can use recursion to merge the two linked lists. We can compare the values of the two pointers and add the smaller value to the merged linked list. We can then call the function recursively with the next node of the smaller value. We can then return the head of the merged linked list.
+
+const recursivelyMergeTwoLists = (l1, l2) => {
+  // Edge Case: If one of the list is empty, return only the non-empty list
+  if (!l1 || !l2) return l1 ? l1 : l2;
+  // Compares values and sets the next of list 1 to a recursive call
+  if (l1.val < l2.val) {
+    l1.next = mergeTwoLists(l1.next, l2);
+    return l1;
+  } else {
+    l2.next = mergeTwoLists(l1, l2.next);
+    return l2;
+  }
+};
