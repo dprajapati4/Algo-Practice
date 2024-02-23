@@ -1,6 +1,7 @@
 // Queues follow a FIFO pattern. Think of the line, the first person in a line is first to come out.
 // Can be implemented using a Queue class or array.
 // Used in background tasks, uploading, printing/ task processes.
+// Bounded Queues have a max size, and can be used to limit the amount of data that can be added to the queue.
 
 // Building a Queue with an array
 // 1. If you add to the end, use .push, and remove from the beginning with .shift. However remember removing from the beginning of an array is inefficient, have to re-index every preceding item.
@@ -10,6 +11,7 @@
 // Remember if you add to the LL's head and remove from the tail via pop(the tail being the first item added to the list), you would have to traverse the list to reach the end each time.
 // It is more efficient instead to add to the tail (Enqueue)and remove from the beginning(Dequeue). So the first item added is the head.
 
+import LinkedList from "../LinkedList/SinglyLinkedList.js";
 class Node {
   constructor(value) {
     this.value = value;
@@ -70,3 +72,47 @@ console.log(newQ.dequeue());
 // Searching/Access O(N)
 
 // Using an array would be O(n) time for insertion and removal
+
+// Can also use a singly linked list to implement a queue.
+
+class QueueFromLL {
+  constructor(maxSize = Infinity) {
+    this.queue = new LinkedList();
+    this.maxSize = maxSize;
+    this.size = 0;
+  }
+
+  hasRoom() {
+    return this.size < this.maxSize ? true : false;
+  }
+
+  isEmpty() {
+    return this.size === 0 ? true : false;
+  }
+
+  enqueue(data) {
+    if (this.hasRoom()) {
+      this.queue.addToTail(data);
+      this.size++;
+    } else {
+      throw new Error("Queue is full!");
+    }
+  }
+
+  dequeue() {
+    if (!this.isEmpty()) {
+      const data = this.queue.removeHead();
+      this.size--;
+      return data;
+    } else {
+      throw new Error("Queue is empty!");
+    }
+  }
+}
+
+const newQueue = new QueueFromLL();
+newQ.enqueue("first");
+newQ.enqueue("second");
+newQ.enqueue("third");
+
+console.log(newQ.dequeue());
