@@ -115,4 +115,4 @@ newQ.enqueue("first");
 newQ.enqueue("second");
 newQ.enqueue("third");
 
-console.log(newQ.dequeue());
+console.log(newQueue.dequeue());
