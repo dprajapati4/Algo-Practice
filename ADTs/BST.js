@@ -49,7 +49,7 @@ class BinarySearchTree {
   find(value) {
     // check if there is a root
     if (this.root === null) return null;
-    // Initalize a current and found variable
+    // Initialize a current and found variable
     let current = this.root;
     let found = false;
 
@@ -100,7 +100,7 @@ class BinarySearchTree {
     const data = [];
     // Create a variable that stores the current node, start it with the root node
     let current = this.root;
-    // creater a helper function which helps accept a node
+    // create a helper function which helps accept a node
     function traverse(node) {
       // push the value of node to data array.
       data.push(node.value);
@@ -134,19 +134,18 @@ class BinarySearchTree {
     return data;
   }
   // Traverse the entire left side, then the node and then all the right side
-  InOrder(){
-  // Create a variable to store the visited node values and initalize the current node at the root
-  const data = [];
-  let current = this.root;
-  // Use a helper function to recursively call on to traverse all the left before visiting the node and then all the right
-  function traverse (node){
-    if(node.left) traverse(node.left);
-    data.push(node.value);
-    if(node.right) traverse(node.right);
-  }
-  traverse(current)
-  return data
-
+  InOrder() {
+    // Create a variable to store the visited node values and initialize the current node at the root
+    const data = [];
+    let current = this.root;
+    // Use a helper function to recursively call on to traverse all the left before visiting the node and then all the right
+    function traverse(node) {
+      if (node.left) traverse(node.left);
+      data.push(node.value);
+      if (node.right) traverse(node.right);
+    }
+    traverse(current);
+    return data;
   }
 }
 
