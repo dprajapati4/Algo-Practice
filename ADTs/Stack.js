@@ -3,6 +3,8 @@
 // Stacks are used in recursion(call stack), in undo/redo, and internet history.
 
 // The Node class is needed as a way to store data. The node has properties of value and next.
+import LinkedList from "../LinkedList/SinglyLinkedList.js";
+
 class Node {
   constructor(value) {
     this.value = value;
@@ -65,8 +67,63 @@ newStack.push("first");
 newStack.push("second");
 newStack.push("third");
 
+console.log(newStack.pop());
+
 // Big O - Rem stacks should prioritize insertion and removal.
 // Insertion and Removal O(1)
 // Searching and Access O(n)
 
 // Using an array would be O(n) time for insertion and removal
+
+// Can also rewrite this using a singly linked list to implement a stack.
+
+class StackFromLL {
+  constructor(maxSize = Infinity) {
+    this.stack = new LinkedList();
+    this.maxSize = maxSize;
+    this.size = 0;
+  }
+
+  // Add helper methods below this line
+  hasRoom() {
+    return this.size < this.maxSize;
+  }
+
+  isEmpty() {
+    return this.size === 0;
+  }
+
+  push(value) {
+    if (this.hasRoom()) {
+      this.stack.addToHead(value);
+      this.size++;
+    } else {
+      throw new Error("Stack is full");
+    }
+  }
+
+  pop() {
+    if (!this.isEmpty()) {
+      const value = this.stack.removeHead();
+      this.size--;
+      return value;
+    } else {
+      throw new Error("Stack is empty");
+    }
+  }
+
+  peek() {
+    if (!this.isEmpty()) {
+      return this.stack.head.data;
+    } else {
+      return null;
+    }
+  }
+}
+
+const newStackFromLL = new StackFromLL();
+newStack.push("first");
+newStack.push("second");
+newStack.push("third");
+
+console.log(newStackFromLL.pop());
