@@ -46,4 +46,8 @@ A repository of my algorithm practice.
 
 ## Sorting Algorithms
 
-- [Selection Sort](Sorting_Algorithms/SelectionSort.js)
+- [Selection Sort](SortingAlgorithms/SelectionSort.js)
+
+## Binary Search
+
+-[Next Greatest Letter](BinarySearch/NextGreatestLetter.js)
