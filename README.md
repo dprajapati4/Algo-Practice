@@ -55,3 +55,5 @@ A repository of my algorithm practice.
 ## Binary Search Tree
 
 - [Average Of Levels In Binary Tree](BinarySearchTree/BFS/AverageOfLevelsBinaryTree.js)
+
+- [Minimum Depth Of Binary Tree](BinarySearchTree/BFS/MinimumDepthOfBinaryTree.js)
