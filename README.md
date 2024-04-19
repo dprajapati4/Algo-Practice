@@ -50,4 +50,8 @@ A repository of my algorithm practice.
 
 ## Binary Search
 
--[Next Greatest Letter](BinarySearch/NextGreatestLetter.js)
+- [Next Greatest Letter](BinarySearch/NextGreatestLetter.js)
+
+## Binary Search Tree
+
+- [Average Of Levels In Binary Tree](BinarySearchTree/BFS/AverageOfLevelsBinaryTree.js)
