@@ -50,4 +50,4 @@ const minDepthDFS = (root) => {
 
 //Big O
 //Time: O(n) because we visit every node during DFS
-//Space : O(n) because in the worst case, we have a height of tree that is equal to the number of nodes -> skewed binary tree and each node only has one child. So the max number of recursive calls is related to the height of the tree. But in balanced binary tree, the heigh is log(n) which results in an O(log n) space complexity.
+//Space: O(n) We calculate this from O(h) where h is the height of the tree, but it comes O(n) since the recursive call stack in the worst case will be the max height of the tree and equal the number of nodes,n, but a more balanced tree will have a log(n) space complexity.
