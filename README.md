@@ -63,3 +63,4 @@ A repository of my algorithm practice.
 ### Depth First Search
 
 - [Is Same Tree](BinarySearchTree/DFS/IsSameTree.js)
+- [Path Sum](BinarySearchTree/DFS/PathSum.js)
