@@ -54,6 +54,12 @@ A repository of my algorithm practice.
 
 ## Binary Search Tree
 
+### Breadth First Search
+
 - [Average Of Levels In Binary Tree](BinarySearchTree/BFS/AverageOfLevelsBinaryTree.js)
 
 - [Minimum Depth Of Binary Tree](BinarySearchTree/BFS/MinimumDepthOfBinaryTree.js)
+
+### Depth First Search
+
+- [Is Same Tree](BinarySearchTree/DFS/IsSameTree.js)

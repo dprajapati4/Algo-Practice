@@ -5,7 +5,7 @@
 const minDepthBFS = (root) => {
   if (!root) return 0;
 
-  const queue = [root];
+  const queue = [root]
   let depth = 1;
 
   while (queue.length > 0) {
