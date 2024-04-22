@@ -69,4 +69,5 @@ A repository of my algorithm practice.
 ## Math 
 
 - [Palindrome Number](Math/PalindromeNumber.js)
+- [Plus One](Math/PlusOne.js)
 
