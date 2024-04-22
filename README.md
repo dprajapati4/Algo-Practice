@@ -65,3 +65,8 @@ A repository of my algorithm practice.
 - [Is Same Tree](BinarySearchTree/DFS/IsSameTree.js)
 - [Path Sum](BinarySearchTree/DFS/PathSum.js)
 - [Max Depth](BinarySearchTree/DFS/MaxDepth.js)
+
+## Math 
+
+- [Palindrome Number](Math/PalindromeNumber.js)
+
