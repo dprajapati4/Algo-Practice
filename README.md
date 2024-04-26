@@ -19,6 +19,13 @@ A repository of my algorithm practice.
 
 - [Two Sum](Arrays/TwoSum.js)
 - [Validate Subsequence](Arrays/ValidateSubsequence.js)
+- [Contains Duplicates](Arrays/ContainsDuplicates.js)
+- [Find All Numbers Disappeared In An Array](Arrays/FindAllNumsDisappearedInArr.js)
+- [Kids With The Greatest Number Of Candies](Arrays/KidsWithGreatestNumberOfCandies.js)
+- [Longest Peak](Arrays/LongestPeak.js)
+- [Missing Number](Arrays/MissingNumber.js)
+- [Single Number](Arrays/SingleNumber.js)
+- [Sorted Squared Array](Arrays/SortedSqauredArray.js)
 
 ## Dynamic Programming
 

@@ -1,5 +1,5 @@
 // Given an integer x, return true if x is a  palindrome, and false otherwise.
-// Approach: Convert into a string, use two pointers, one at the end and one at the begining of the string and compare letters
+// Approach: Convert into a string, use two pointers, one at the end and one at the beginning of the string and compare letters
 
 const isPalindrome = (x) => {
   const str = x.toString();

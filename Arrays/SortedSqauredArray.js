@@ -1,4 +1,4 @@
-/* Write a function that takes a non-empty array sorted in ascending order and returns an array of the same length that has the sqaures of the array values also in ascending order
+/* Write a function that takes a non-empty array sorted in ascending order and returns an array of the same length that has the squares of the array values also in ascending order
  */
 
 // Solution 1: Brute
@@ -24,7 +24,7 @@ Space Complexity: O(N)
 We create a new array length of N, so the extra data structure we create gives us a space complexity of O(N).
 */
 
-// Because the array is in the ascending order, the largest sqaure is either the last item in the array or is the first item in the array as the square of a very negative number is a large postive number.
-// Track the first and last and set the array from the end to the begining
+// Because the array is in the ascending order, the largest square is either the last item in the array or is the first item in the array as the square of a very negative number is a large positive number.
+// Track the first and last and set the array from the end to the beginning
 
 // Solution 2
