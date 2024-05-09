@@ -74,7 +74,7 @@ A repository of my algorithm practice.
 - [Max Depth](BinarySearchTree/DFS/MaxDepth.js)
 - [Diameter Of Binary Tree](BinarySearchTree/DFS/DiameterOfBT.js)
 - [Merge Two Binary Trees](BinarySearchTree/DFS/MergeTwoBT.js)
-
+- [Subtree Of Another Tree](BinarySearchTree/DFS/SubtreeOfAnotherTree.js)
 ## Math
 
 - [Palindrome Number](Math/PalindromeNumber.js)
