@@ -25,7 +25,7 @@ A repository of my algorithm practice.
 - [Longest Peak](Arrays/LongestPeak.js)
 - [Missing Number](Arrays/MissingNumber.js)
 - [Single Number](Arrays/SingleNumber.js)
-- [Sorted Squared Array](Arrays/SortedSqauredArray.js)
+- [Squares Of Sorted Array](Arrays/SquaresOfSortedArr.js)
 
 ## Dynamic Programming
 
