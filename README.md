@@ -55,6 +55,10 @@ A repository of my algorithm practice.
 
 - [Selection Sort](SortingAlgorithms/SelectionSort.js)
 
+## Strings
+
+- [Backspace String Compare](Strings/BackspaceStringCompare.js)
+
 ## Binary Search
 
 - [Next Greatest Letter](BinarySearch/NextGreatestLetter.js)
