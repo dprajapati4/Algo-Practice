@@ -58,6 +58,7 @@ A repository of my algorithm practice.
 ## Strings
 
 - [Backspace String Compare](Strings/BackspaceStringCompare.js)
+- [Is Subsequence](Strings/IsSubsequence.js)
 
 ## Binary Search
 
