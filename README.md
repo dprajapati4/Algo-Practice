@@ -59,6 +59,7 @@ A repository of my algorithm practice.
 
 - [Backspace String Compare](Strings/BackspaceStringCompare.js)
 - [Is Subsequence](Strings/IsSubsequence.js)
+- [Move Zeroes](Strings/MoveZeroes.js)
 
 ## Binary Search
 
@@ -81,6 +82,8 @@ A repository of my algorithm practice.
 - [Merge Two Binary Trees](BinarySearchTree/DFS/MergeTwoBT.js)
 - [Subtree Of Another Tree](BinarySearchTree/DFS/SubtreeOfAnotherTree.js)
 - [Invert Binary Tree](BinarySearchTree/DFS/InvertBT.js)
+- [Search In A Binary Search Tree](BinarySearchTree/DFS/SearchInABT.js)
+
 ## Math
 
 - [Palindrome Number](Math/PalindromeNumber.js)
