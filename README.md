@@ -26,6 +26,7 @@ A repository of my algorithm practice.
 - [Missing Number](Arrays/MissingNumber.js)
 - [Single Number](Arrays/SingleNumber.js)
 - [Squares Of Sorted Array](Arrays/SquaresOfSortedArr.js)
+- [Container With Most Water](Arrays/ContainerWithMostWater.js)
 
 ## Dynamic Programming
 

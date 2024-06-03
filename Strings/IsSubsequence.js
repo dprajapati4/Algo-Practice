@@ -25,5 +25,5 @@ const isSubsequence = (s, t) => {
   return false;
 };
 // BigO
-// Time Complexity: O(n) where n is equal to the length of t.
+// Time Complexity: O(n) because we go through all the elements in the height array.
 // Space Complexity: O(1) because we are only creating new constants.
