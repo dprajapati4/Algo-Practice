@@ -29,6 +29,10 @@ A repository of my algorithm practice.
 - [Container With Most Water](Arrays/ContainerWithMostWater.js)
 - [Majority Element](Arrays/MajorityElement.js)
 
+## 2D Arrays
+
+- [Convert 1D Array Into 2D Array](2DArrays/Convert1DArrInto2DArr.js)
+
 ## Dynamic Programming
 
 - [Climbing Stairs](DynamicProgramming/ClimbingStairs.js)
