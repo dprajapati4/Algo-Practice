@@ -28,6 +28,7 @@ A repository of my algorithm practice.
 - [Squares Of Sorted Array](Arrays/SquaresOfSortedArr.js)
 - [Container With Most Water](Arrays/ContainerWithMostWater.js)
 - [Majority Element](Arrays/MajorityElement.js)
+- [Move Zeros](Arrays/MoveZeros.js)
 
 ## 2D Arrays
 
