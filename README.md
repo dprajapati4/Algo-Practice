@@ -91,6 +91,10 @@ A repository of my algorithm practice.
 - [Invert Binary Tree](BinarySearchTree/DFS/InvertBT.js)
 - [Search In A Binary Search Tree](BinarySearchTree/DFS/SearchInABT.js)
 
+#### Backtracking
+
+- [Binary Tree Paths](BinarySearchTree/DFS/BinaryTreePaths.js)
+
 ## Math
 
 - [Palindrome Number](Math/PalindromeNumber.js)
