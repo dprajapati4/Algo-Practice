@@ -29,6 +29,7 @@ A repository of my algorithm practice.
 - [Container With Most Water](Arrays/ContainerWithMostWater.js)
 - [Majority Element](Arrays/MajorityElement.js)
 - [Move Zeros](Arrays/MoveZeros.js)
+- [Maximum Average Subarray](Arrays/MaxAvgSubarrayI.js)
 
 ## 2D Arrays
 
