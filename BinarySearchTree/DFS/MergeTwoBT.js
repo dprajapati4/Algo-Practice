@@ -22,6 +22,6 @@ const mergeTrees = (root1, root2) => {
   return root;
 };
 
-//Big O
-//Time: O(n) because we visit every node during DFS
-//Space: O(n) We calculate this from O(h) where h is the height of the tree, but it comes O(n) since the recursive call stack in the worst case will be the max height of the tree and equal the number of nodes,n, but a more balanced tree will have a log(n) space complexity.
+// Big O
+// Time: O(n) because we visit every node during DFS
+// Space: O(n) We calculate this from O(h) where h is the height of the tree, but it comes O(n) since the recursive call stack in the worst case will be the max height of the tree and equal the number of nodes,n, but a more balanced tree will have a log(n) space complexity.

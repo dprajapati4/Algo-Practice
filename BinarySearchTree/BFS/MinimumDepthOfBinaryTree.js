@@ -1,6 +1,6 @@
-//Given a binary tree, find its minimum depth.The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+// Given a binary tree, find its minimum depth.The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
 
-//Approach: BFS to traverse each level of the tree and use the idea that leaf nodes higher up in the tree will be at a lower level than a leaf node lower in the tree. Thus once you find the first leaf node in the tree, this is the minimum depth of a leaf node for the tree. So using BFS, we set up a queue and a variable to track the depth. While we have nodes in out queue, we iterate over that level bc the number of tree nodes per level = queueLength, we return once we are a leaf node = no left or right children nodes. Otherwise we shift off the first node and increase the depth and then iterate over the next level until we find the leaf node.
+// Approach: BFS to traverse each level of the tree and use the idea that leaf nodes higher up in the tree will be at a lower level than a leaf node lower in the tree. Thus once you find the first leaf node in the tree, this is the minimum depth of a leaf node for the tree. So using BFS, we set up a queue and a variable to track the depth. While we have nodes in out queue, we iterate over that level bc the number of tree nodes per level = queueLength, we return once we are a leaf node = no left or right children nodes. Otherwise we shift off the first node and increase the depth and then iterate over the next level until we find the leaf node.
 
 const minDepthBFS = (root) => {
   if (!root) return 0;
@@ -48,6 +48,6 @@ const minDepthDFS = (root) => {
   return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
 };
 
-//Big O
-//Time: O(n) because we visit every node during DFS
-//Space: O(n) We calculate this from O(h) where h is the height of the tree, but it comes O(n) since the recursive call stack in the worst case will be the max height of the tree and equal the number of nodes,n, but a more balanced tree will have a log(n) space complexity.
+// Big O
+// Time: O(n) because we visit every node during DFS
+// Space: O(n) We calculate this from O(h) where h is the height of the tree, but it comes O(n) since the recursive call stack in the worst case will be the max height of the tree and equal the number of nodes,n, but a more balanced tree will have a log(n) space complexity.
