@@ -31,6 +31,7 @@ A repository of my algorithm practice.
 - [Move Zeros](Arrays/MoveZeros.js)
 - [Maximum Average Subarray](Arrays/MaxAvgSubarrayI.js)
 - [Product Of Array Except Self](Arrays/ProductOfArrayExceptSelf.js)
+- [Find The Duplicate Number](Arrays/FindTheDuplicateNumber.js)
 
 ## 2D Arrays
 
