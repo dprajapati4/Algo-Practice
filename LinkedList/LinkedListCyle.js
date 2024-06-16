@@ -4,10 +4,10 @@
 
 // Return true if there is a cycle in the linked list. Otherwise, return false.
 
-//Approach: Fast and slow pointers
-//We can use two pointers to keep track of the of the fast and slow nodes. We can initialize the fast node as the head and the slow node as the head.
-//We can then loop through the array and move the pointers forward until the fast node has reached the last item in the array.
-//If the fast node is equal to the slow node we can return true. Else we return false.
+// Approach: Fast and slow pointers
+// We can use two pointers to keep track of the of the fast and slow nodes. We can initialize the fast node as the head and the slow node as the head.
+// We can then loop through the array and move the pointers forward until the fast node has reached the last item in the array.
+// If the fast node is equal to the slow node we can return true. Else we return false.
 
 const hasCycle = (head) => {
   let fast = head;
@@ -22,5 +22,6 @@ const hasCycle = (head) => {
   return false;
 };
 
-//BigO Time Complexity: O(n) -> one for loop
-//BigO Space Complexity: O(1) -> storing the values in variables
+// BigO Time Complexity: O(n) -> one for loop
+// BigO Space Complexity: O(1) -> storing the values in variables
+

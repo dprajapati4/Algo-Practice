@@ -23,7 +23,7 @@ const kidsWithCandies = (candies, extraCandies) => {
   return result;
 };
 
-//BigO
+// BigO
 // Time Complexity: O(n) -> From O(n) + O(n) = O(2n) = O(n)
 // Space Complexity: O(n) where n is the length of the arr, n.
 
@@ -34,5 +34,6 @@ const kidsWithCandiesSimple = (candies, extraCandies) => {
   return candies.map((item) => item + extraCandies >= max);
 };
 
+// BigO
 // Time Complexity: O(n)
 // Space Complexity: O(n)
