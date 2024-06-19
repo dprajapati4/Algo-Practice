@@ -38,6 +38,7 @@ A repository of my algorithm practice.
 
 - [Convert 1D Array Into 2D Array](2DArrays/Convert1DArrInto2DArr.js)
 - [Set Matrix Zeroes](2DArrays/SetMatrixZeroes.js)
+- [Spiral Matrix](2DArrays/SpiralMatrix.js)
 
 ## Dynamic Programming
 
