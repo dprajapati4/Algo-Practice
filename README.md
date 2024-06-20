@@ -73,6 +73,7 @@ A repository of my algorithm practice.
 - [Backspace String Compare](Strings/BackspaceStringCompare.js)
 - [Is Subsequence](Strings/IsSubsequence.js)
 - [Move Zeroes](Strings/MoveZeroes.js)
+- [Valid Anagram](Strings/ValidAnagram.js)
 
 ## Binary Search
 
