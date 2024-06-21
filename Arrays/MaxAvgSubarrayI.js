@@ -28,3 +28,7 @@ const findMaxAverage = (nums, k) => {
   avg = maxSum / k;
   return avg.toFixed(5);
 };
+
+// BigO
+// Time: O(n) we traverse through all of elements in the original array once.
+// Space: O(1) we are just using constant.

@@ -33,6 +33,7 @@ A repository of my algorithm practice.
 - [Product Of Array Except Self](Arrays/ProductOfArrayExceptSelf.js)
 - [Find The Duplicate Number](Arrays/FindTheDuplicateNumber.js)
 - [Find All Duplicates In An Array](Arrays/FindAllDuplicatesInArray.js)
+- [Maximum Subarray](Arrays/MaximumSubarray.js)
 
 ## 2D Arrays
 
