@@ -75,6 +75,7 @@ A repository of my algorithm practice.
 - [Is Subsequence](Strings/IsSubsequence.js)
 - [Move Zeroes](Strings/MoveZeroes.js)
 - [Valid Anagram](Strings/ValidAnagram.js)
+- [Longest Substring Without Repeating Characters](Strings/LongestSubstringWithoutRepeatingCharacters.js)
 
 ## Binary Search
 
