@@ -3,7 +3,6 @@
 // Approach: Use two pointers, left one starting at the beginning of the array and the right one at the end. The max water in the container is found by calculating the area of the rectangle. So area of rectangle is width * height. The width is equal to the difference between the two indexes of the left and right pointers. The height is equal to the value of the smaller value at that index of the array. We compare the areas while moving the pointers towards the center until we have checked all the values. We return the greatest area by updating the area with the greater value during each iteration. 
 
 
-
 const maxArea = (height) => {
   let left = 0;
   let right = height.length - 1;

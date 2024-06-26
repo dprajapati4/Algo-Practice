@@ -1,6 +1,6 @@
-//Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.
+// Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.
 
-//Approach: Create an object that has keys from 0 to N of nums and then loop through the array and compare it to the object. If the key does not exist in the object than push it to the result array.
+// Approach: Create an object that has keys from 0 to N of nums and then loop through the array and compare it to the object. If the key does not exist in the object than push it to the result array.
 const findDisappearedNumbers = (nums) => {
   const obj = {};
   const res = [];
@@ -15,5 +15,5 @@ const findDisappearedNumbers = (nums) => {
   return res;
 };
 
-//BigO Time Complexity: O(n)
-//BigO Space Complexity: O(n)
+// BigO Time Complexity: O(n)
+// BigO Space Complexity: O(n)
