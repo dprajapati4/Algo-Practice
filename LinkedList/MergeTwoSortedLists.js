@@ -48,3 +48,6 @@ const recursivelyMergeTwoLists = (l1, l2) => {
     return l2;
   }
 };
+
+//BigO Time Complexity: O(n) -> because we visit each node 
+//BigO Space Complexity: O(n) -> because we take up n space at most in the call stack.
