@@ -67,6 +67,7 @@ A repository of my algorithm practice.
 
 ## Sorting Algorithms
 
+- [Bubble Sort](SortingAlgorithms/BubbleSort.js)
 - [Selection Sort](SortingAlgorithms/SelectionSort.js)
 
 ## Strings
@@ -84,6 +85,7 @@ A repository of my algorithm practice.
 ## Binary Search Tree
 
 ### Breadth First Search
+
 - [Average Of Levels In Binary Tree](BinarySearchTree/BFS/AverageOfLevelsBinaryTree.js)
 - [Minimum Depth Of Binary Tree](BinarySearchTree/BFS/MinimumDepthOfBinaryTree.js)
 
