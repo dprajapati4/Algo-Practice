@@ -68,6 +68,7 @@ A repository of my algorithm practice.
 ## Sorting Algorithms
 
 - [Bubble Sort](SortingAlgorithms/BubbleSort.js)
+- [Merge Sort](SortingAlgorithms/MergeSort.js)
 - [Selection Sort](SortingAlgorithms/SelectionSort.js)
 
 ## Strings
