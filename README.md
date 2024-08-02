@@ -34,6 +34,7 @@ A repository of my algorithm practice.
 - [Find The Duplicate Number](Arrays/FindTheDuplicateNumber.js)
 - [Find All Duplicates In An Array](Arrays/FindAllDuplicatesInArray.js)
 - [Maximum Subarray](Arrays/MaximumSubarray.js)
+- [Closest Number To Zero](Arrays/ClosestNumberToZero.js)
 
 ## 2D Arrays
 
