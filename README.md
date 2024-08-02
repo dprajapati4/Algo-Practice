@@ -80,6 +80,7 @@ A repository of my algorithm practice.
 - [Valid Anagram](Strings/ValidAnagram.js)
 - [Longest Substring Without Repeating Characters](Strings/LongestSubstringWithoutRepeatingCharacters.js)
 - [Merge Strings Alternatively](Strings/MergeStringsAlternatively.js)
+- [Roman to Integer](Strings/RomanToInteger.js)
 
 
 ## Binary Search
