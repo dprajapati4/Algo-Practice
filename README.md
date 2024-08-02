@@ -79,6 +79,8 @@ A repository of my algorithm practice.
 - [Move Zeroes](Strings/MoveZeroes.js)
 - [Valid Anagram](Strings/ValidAnagram.js)
 - [Longest Substring Without Repeating Characters](Strings/LongestSubstringWithoutRepeatingCharacters.js)
+- [Merge Strings Alternatively](Strings/MergeStringsAlternatively.js)
+
 
 ## Binary Search
 
