@@ -81,6 +81,7 @@ A repository of my algorithm practice.
 - [Longest Substring Without Repeating Characters](Strings/LongestSubstringWithoutRepeatingCharacters.js)
 - [Merge Strings Alternatively](Strings/MergeStringsAlternatively.js)
 - [Roman to Integer](Strings/RomanToInteger.js)
+- [Longest Common Prefix](Strings/LongestCommonPrefix.js)
 
 
 ## Binary Search
