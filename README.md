@@ -43,6 +43,8 @@ Strings/SummaryRanges.js
 - [Convert 1D Array Into 2D Array](2DArrays/Convert1DArrInto2DArr.js)
 - [Set Matrix Zeroes](2DArrays/SetMatrixZeroes.js)
 - [Spiral Matrix](2DArrays/SpiralMatrix.js)
+- [Rotate Image](2DArrays/RotateImage.js)
+- [Merge Intervals](2DArrays/MergeIntervals.js)
 
 ## Dynamic Programming
 
