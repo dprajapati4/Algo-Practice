@@ -86,6 +86,7 @@ Strings/SummaryRanges.js
 - [Merge Strings Alternatively](Strings/MergeStringsAlternatively.js)
 - [Roman to Integer](Strings/RomanToInteger.js)
 - [Longest Common Prefix](Strings/LongestCommonPrefix.js)
+- [Minimum Remove To Make Valid Parentheses](Strings/MinimumRemoveToMakeValidParentheses.js)
 
 
 ## Binary Search
