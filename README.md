@@ -55,6 +55,9 @@ Strings/SummaryRanges.js
 
 - [Buy And Sell Stocks](Greedy/BuySellStocks.js)
 
+## Hash Maps and Sets
+- [Jewels And Stones](HashMapsAndSets/JewelsAndStones.js)
+
 ## Linked List
 
 - [Doubly Linked List](LinkedList/DoublyLinkedList.js)

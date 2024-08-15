@@ -32,4 +32,4 @@ console.log(bubbleSort([1, 2, 3, 4, 5, 6, 7, 8, 9]));
 
 // Big O
 // Time Complexity - O(n^2) In bubble sort, where n is the number of elements in the list,  we perform n-1 comparisons for our inner loop. Then, we must go through the list n times in order to ensure that each item in our list has been placed in its proper order.  In a worst case scenario, the inner loop does `n-1` comparisons for each `n` element in the list.
-// Space Complexity - O(0) - Bubble Sort sorts the list in-place.
+// Space Complexity - O(1) - Bubble Sort sorts the list in-place.
