@@ -36,7 +36,7 @@ A repository of my algorithm practice.
 - [Maximum Subarray](Arrays/MaximumSubarray.js)
 - [Closest Number To Zero](Arrays/ClosestNumberToZero.js)
 - [Summary Ranges](Arrays/SummaryRanges.js)
-Strings/SummaryRanges.js
+  Strings/SummaryRanges.js
 
 ## 2D Arrays
 
@@ -56,7 +56,9 @@ Strings/SummaryRanges.js
 - [Buy And Sell Stocks](Greedy/BuySellStocks.js)
 
 ## Hash Maps and Sets
+
 - [Jewels And Stones](HashMapsAndSets/JewelsAndStones.js)
+- [Ransom Note](HashMapsAndSets/RansomNote.js)
 
 ## Linked List
 
@@ -90,7 +92,6 @@ Strings/SummaryRanges.js
 - [Roman to Integer](Strings/RomanToInteger.js)
 - [Longest Common Prefix](Strings/LongestCommonPrefix.js)
 - [Minimum Remove To Make Valid Parentheses](Strings/MinimumRemoveToMakeValidParentheses.js)
-
 
 ## Binary Search
 
