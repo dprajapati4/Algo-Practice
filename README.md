@@ -60,6 +60,7 @@ A repository of my algorithm practice.
 - [Jewels And Stones](HashMapsAndSets/JewelsAndStones.js)
 - [Ransom Note](HashMapsAndSets/RansomNote.js)
 - [Valid Sudoku](HashMapsAndSets/ValidSudoku.js)
+- [Grouped Anagrams](HashMapsAndSets/GroupedAnagrams.js)
 
 ## Linked List
 
