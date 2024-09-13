@@ -61,7 +61,8 @@ A repository of my algorithm practice.
 - [Ransom Note](HashMapsAndSets/RansomNote.js)
 - [Valid Sudoku](HashMapsAndSets/ValidSudoku.js)
 - [Grouped Anagrams](HashMapsAndSets/GroupedAnagrams.js)
-- [Majority Element](HashMapsAndSets/MajorityElement.js)
+- [Majority Element](HashMapsAndSets/MajorityElement.js) 
+- [Longest Consecutive Sequence](HashMapsAndSets/LongestConsecutiveSequence.js)
 
 ## Linked List
 
