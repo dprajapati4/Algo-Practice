@@ -88,7 +88,7 @@ A repository of my algorithm practice.
 
 ## Strings
 
-- [IsPalindrome](Strings/IsPalindrome.js)
+- [ValidPalindrome](Strings/ValidPalindrome.js)
 - [Backspace String Compare](Strings/BackspaceStringCompare.js)
 - [Is Subsequence](Strings/IsSubsequence.js)
 - [Move Zeroes](Strings/MoveZeroes.js)
