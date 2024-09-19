@@ -18,6 +18,7 @@ A repository of my algorithm practice.
 ## Arrays
 
 - [Two Sum](Arrays/TwoSum.js)
+- [Two Sum II](Arrays/TwoSumII.js)
 - [Validate Subsequence](Arrays/ValidateSubsequence.js)
 - [Contains Duplicates](Arrays/ContainsDuplicates.js)
 - [Find All Numbers Disappeared In An Array](Arrays/FindAllNumsDisappearedInArr.js)
