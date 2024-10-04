@@ -38,7 +38,7 @@ A repository of my algorithm practice.
 - [Maximum Subarray](Arrays/MaximumSubarray.js)
 - [Closest Number To Zero](Arrays/ClosestNumberToZero.js)
 - [Summary Ranges](Arrays/SummaryRanges.js)
-  Strings/SummaryRanges.js
+- [Trapping Rain Water](Arrays/TrappingRainWater.js)
 
 ## 2D Arrays
 
