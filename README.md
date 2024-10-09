@@ -87,6 +87,9 @@ A repository of my algorithm practice.
 - [Merge Sort](SortingAlgorithms/MergeSort.js)
 - [Selection Sort](SortingAlgorithms/SelectionSort.js)
 
+## Stacks
+- [Baseball Game](Stacks/BaseballGame.js)
+
 ## Strings
 
 - [ValidPalindrome](Strings/ValidPalindrome.js)
