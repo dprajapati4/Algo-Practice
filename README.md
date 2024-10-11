@@ -102,7 +102,8 @@ A repository of my algorithm practice.
 - [Roman to Integer](Strings/RomanToInteger.js)
 - [Longest Common Prefix](Strings/LongestCommonPrefix.js)
 - [Minimum Remove To Make Valid Parentheses](Strings/MinimumRemoveToMakeValidParentheses.js)
-- [ReverseAString](Strings/ReverseAString.js)
+- [Reverse A String](Strings/ReverseAString.js)
+- [Valid Parentheses](Strings/ValidParentheses.js)
 
 ## Binary Search
 
