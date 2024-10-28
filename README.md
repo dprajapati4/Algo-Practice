@@ -90,6 +90,7 @@ A repository of my algorithm practice.
 ## Stacks
 - [Baseball Game](Stacks/BaseballGame.js)
 - [Evaluate Reverse Polish Notation](Stacks/EvaluateReversePolishNotation.js)
+- [Daily Temperatures](Stacks/DailyTemperatures.js)
 ## Strings
 
 - [ValidPalindrome](Strings/ValidPalindrome.js)
