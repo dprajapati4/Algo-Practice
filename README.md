@@ -39,6 +39,7 @@ A repository of my algorithm practice.
 - [Closest Number To Zero](Arrays/ClosestNumberToZero.js)
 - [Summary Ranges](Arrays/SummaryRanges.js)
 - [Trapping Rain Water](Arrays/TrappingRainWater.js)
+- [Merge Sorted Arrays](Arrays/MergeSortedArrays.js)
 
 ## 2D Arrays
 
