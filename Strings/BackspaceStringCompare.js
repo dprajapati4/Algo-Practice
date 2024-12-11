@@ -32,7 +32,7 @@ const processStringCompare = (s, t) => {
 
 // BigO
 // Time Complexity: O(n+m) where n is equal to the length of s and m the length of m.
-//Space Complexity: O(n+m) because we create an array of size n and m, resulting in O(n + m) space.
+// Space Complexity: O(n+m) because we create an array of size n and m, resulting in O(n + m) space.
 
 // Approach 2: Use a stack. Works similarly to the above solution but you don't need to convert the strings into an array. Instead we use a stack. The helper function processes the input string using an array result to simulate a stack. It iterates through each character of the string. If the character is not #, it pushes the character onto the stack. If the character is # and the stack is not empty, it pops the last character from the stack. Lastly, it joins the stack into a string and returns it.
 

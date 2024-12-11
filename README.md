@@ -107,6 +107,7 @@ A repository of my algorithm practice.
 - [Minimum Remove To Make Valid Parentheses](Strings/MinimumRemoveToMakeValidParentheses.js)
 - [Reverse A String](Strings/ReverseAString.js)
 - [Valid Parentheses](Strings/ValidParentheses.js)
+- [Find Index of First Occurrence](Strings/FindIndexOfFirstOccurrence.js)
 
 ## Binary Search
 
