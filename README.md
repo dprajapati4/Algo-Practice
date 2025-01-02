@@ -93,6 +93,7 @@ A repository of my algorithm practice.
 - [Baseball Game](Stacks/BaseballGame.js)
 - [Evaluate Reverse Polish Notation](Stacks/EvaluateReversePolishNotation.js)
 - [Daily Temperatures](Stacks/DailyTemperatures.js)
+
 ## Strings
 
 - [ValidPalindrome](Strings/ValidPalindrome.js)
@@ -140,3 +141,4 @@ A repository of my algorithm practice.
 
 - [Palindrome Number](Math/PalindromeNumber.js)
 - [Plus One](Math/PlusOne.js)
+- [Insert Delete Get Random O(1)](Math/InsertDeleteGetRandom.js)
