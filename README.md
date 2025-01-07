@@ -142,3 +142,4 @@ A repository of my algorithm practice.
 - [Palindrome Number](Math/PalindromeNumber.js)
 - [Plus One](Math/PlusOne.js)
 - [Insert Delete Get Random O(1)](Math/InsertDeleteGetRandom.js)
+- [Fibonacci Number](Math/FibonacciNumber.js)
