@@ -125,6 +125,7 @@ A repository of my algorithm practice.
 ### Depth First Search
 
 - [Is Same Tree](BinarySearchTree/DFS/IsSameTree.js)
+- [Is Symmetric](BinarySearchTree/DFS/IsSymmetric.js)
 - [Path Sum](BinarySearchTree/DFS/PathSum.js)
 - [Max Depth](BinarySearchTree/DFS/MaxDepth.js)
 - [Diameter Of Binary Tree](BinarySearchTree/DFS/DiameterOfBT.js)
