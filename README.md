@@ -24,6 +24,7 @@ A repository of my algorithm practice.
 - [Validate Subsequence](Arrays/ValidateSubsequence.js)
 - [Contains Duplicates](Arrays/ContainsDuplicates.js)
 - [Find All Numbers Disappeared In An Array](Arrays/FindAllNumsDisappearedInArr.js)
+- [How Many Numbers Smaller Than The Current Number](Arrays/HowManyNumbersAreSmallerThanTheCurrentNumber.js)
 - [Kids With The Greatest Number Of Candies](Arrays/KidsWithGreatestNumberOfCandies.js)
 - [Longest Peak](Arrays/LongestPeak.js)
 - [Missing Number](Arrays/MissingNumber.js)
@@ -65,7 +66,7 @@ A repository of my algorithm practice.
 - [Ransom Note](HashMapsAndSets/RansomNote.js)
 - [Valid Sudoku](HashMapsAndSets/ValidSudoku.js)
 - [Grouped Anagrams](HashMapsAndSets/GroupedAnagrams.js)
-- [Majority Element](HashMapsAndSets/MajorityElement.js) 
+- [Majority Element](HashMapsAndSets/MajorityElement.js)
 - [Longest Consecutive Sequence](HashMapsAndSets/LongestConsecutiveSequence.js)
 
 ## Linked List
@@ -90,6 +91,7 @@ A repository of my algorithm practice.
 - [Selection Sort](SortingAlgorithms/SelectionSort.js)
 
 ## Stacks
+
 - [Baseball Game](Stacks/BaseballGame.js)
 - [Evaluate Reverse Polish Notation](Stacks/EvaluateReversePolishNotation.js)
 - [Daily Temperatures](Stacks/DailyTemperatures.js)
