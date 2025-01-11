@@ -43,6 +43,7 @@ A repository of my algorithm practice.
 - [Summary Ranges](Arrays/SummaryRanges.js)
 - [Trapping Rain Water](Arrays/TrappingRainWater.js)
 - [Merge Sorted Arrays](Arrays/MergeSortedArrays.js)
+- [Number of Islands](Arrays/NumberOfIslands.js)
 
 ## 2D Arrays
 
