@@ -23,6 +23,7 @@ A repository of my algorithm practice.
 - [3Sum](Arrays/3Sum.js)
 - [Validate Subsequence](Arrays/ValidateSubsequence.js)
 - [Contains Duplicates](Arrays/ContainsDuplicates.js)
+- [Contains Duplicates II](Arrays/ContainsDuplicatesII.js)
 - [Find All Numbers Disappeared In An Array](Arrays/FindAllNumsDisappearedInArr.js)
 - [How Many Numbers Smaller Than The Current Number](Arrays/HowManyNumbersAreSmallerThanTheCurrentNumber.js)
 - [Minimum Time To Visit All Points](Arrays/MinimumTimeVisitingAllPoints.js)
