@@ -8,7 +8,7 @@
 
 // Approach: The key idea here is that the quickest way to traverse is going to be diagonally. How far you travel diagonally depends on the max value you are moving horizontally or vertically. For example to go from [1,1] to [3,4] we need to travel 2 horizontally and 3 vertically, so the min steps we need to take is the max of the horizontal and vertical. Use this approach and shift off coordinates from the points array and compare the distance needed to travel between pairs.
 
-var minTimeToVisitAllPoints = function (points) {
+const minTimeToVisitAllPoints = (points) => {
   let res = 0;
   let [x1, y1] = points.shift(); // Get the first point
 

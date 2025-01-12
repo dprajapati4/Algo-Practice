@@ -16,7 +16,7 @@ const findDisappearedNumbersObj = (nums) => {
 };
 
 // You can also use a Set it has similar time and space complexity.
-var findDisappearedNumbersSet = function (nums) {
+const findDisappearedNumbersSet = (nums) => {
   const set = new Set(nums);
   const ans = [];
 

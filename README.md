@@ -44,6 +44,7 @@ A repository of my algorithm practice.
 - [Trapping Rain Water](Arrays/TrappingRainWater.js)
 - [Merge Sorted Arrays](Arrays/MergeSortedArrays.js)
 - [Number of Islands](Arrays/NumberOfIslands.js)
+- [Longest Mountain In Array](Arrays/LongestMountainInArray.js)
 
 ## 2D Arrays
 
@@ -60,7 +61,7 @@ A repository of my algorithm practice.
 
 ## Greedy Algorithms
 
-- [Buy And Sell Stocks](Greedy/BuySellStocks.js)
+- [Best Time To Buy And Sell Stocks](Greedy/BestTimeToBuyAndSellStocks.js)
 
 ## Hash Maps and Sets
 
