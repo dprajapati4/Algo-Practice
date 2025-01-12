@@ -24,6 +24,7 @@ A repository of my algorithm practice.
 - [Validate Subsequence](Arrays/ValidateSubsequence.js)
 - [Contains Duplicates](Arrays/ContainsDuplicates.js)
 - [Contains Duplicates II](Arrays/ContainsDuplicatesII.js)
+- [Minimum Absolute Difference](Arrays/MinimumAbsoluteDifference.js)
 - [Find All Numbers Disappeared In An Array](Arrays/FindAllNumsDisappearedInArr.js)
 - [How Many Numbers Smaller Than The Current Number](Arrays/HowManyNumbersAreSmallerThanTheCurrentNumber.js)
 - [Minimum Time To Visit All Points](Arrays/MinimumTimeVisitingAllPoints.js)
