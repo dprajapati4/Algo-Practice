@@ -28,6 +28,7 @@ A repository of my algorithm practice.
 - [Find All Numbers Disappeared In An Array](Arrays/FindAllNumsDisappearedInArr.js)
 - [How Many Numbers Smaller Than The Current Number](Arrays/HowManyNumbersAreSmallerThanTheCurrentNumber.js)
 - [Minimum Time To Visit All Points](Arrays/MinimumTimeVisitingAllPoints.js)
+- [Minimum Size Subarray Sum](Arrays/MinimumSizeSubarraySum.js)
 - [Kids With The Greatest Number Of Candies](Arrays/KidsWithGreatestNumberOfCandies.js)
 - [Longest Peak](Arrays/LongestPeak.js)
 - [Missing Number](Arrays/MissingNumber.js)
