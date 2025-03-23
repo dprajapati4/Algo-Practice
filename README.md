@@ -18,6 +18,7 @@ A repository of my algorithm practice.
 ## Arrays
 
 - [Remove Element](Arrays/RemoveElement.js)
+- [Remove Duplicates From Sorted Array](Arrays/RemoveDuplicatesFromSortedArray.js)
 - [Two Sum](Arrays/TwoSum.js)
 - [Two Sum II](Arrays/TwoSumII.js)
 - [3Sum](Arrays/3Sum.js)

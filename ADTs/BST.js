@@ -72,7 +72,7 @@ class BinarySearchTree {
     return current;
   }
 
-  // Breadth First Search : we traverse through even level
+  // Breadth First Search : we traverse through every level
   BFS() {
     // create a queue(FIFO) via an array to hold the values you visit and an array that will return the visited nodes in BFS order and a node variable to temp hold the nodes removed from the queue.
     const data = [];
