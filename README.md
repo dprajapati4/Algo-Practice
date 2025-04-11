@@ -66,6 +66,7 @@ A repository of my algorithm practice.
 ## Greedy Algorithms
 
 - [Best Time To Buy And Sell Stocks](Greedy/BestTimeToBuyAndSellStocks.js)
+- [Can Place Flowers](Greedy/CanPlaceFlowers.js)
 
 ## Hash Maps and Sets
 
