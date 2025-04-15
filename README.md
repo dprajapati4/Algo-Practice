@@ -67,6 +67,7 @@ A repository of my algorithm practice.
 
 - [Best Time To Buy And Sell Stocks](Greedy/BestTimeToBuyAndSellStocks.js)
 - [Can Place Flowers](Greedy/CanPlaceFlowers.js)
+- [Increasing Triplet Subsequence](Greedy/IncreasingTripletSubsequence.js)
 
 ## Hash Maps and Sets
 
