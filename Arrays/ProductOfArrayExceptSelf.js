@@ -29,3 +29,28 @@ const productExceptSelf = (nums) => {
 // BigO
 // Time: O(n) we traverse through all of elements in the original array once.
 // Space: O(n) we are creating arrays to store the left and right and the answers.
+
+// Constant Space Approach: Can also do this without creating a left and right array and just build the results array with the left and than multiply the right side.
+
+const productExceptSelf2 = (nums) => {
+  // initialize result array with 1's.
+  const res = new Array(nums.length).fill(1);
+  // Update the res with the products of all elements to the left of i
+  for (let i = 1; i < nums.length; i++) {
+    res[i] = nums[i - 1] * res[i - 1];
+  }
+  // rightProduct stores the product of the elements to the right of i
+  let rightProduct = 1;
+  // As we go backward, we multiply current res[i] (which already has the left product) by the rightProduct.
+  for (let i = nums.length - 1; i >= 0; i--) {
+    res[i] = res[i] * rightProduct;
+    rightProduct *= nums[i];
+  }
+
+  return res;
+};
+
+// BigO
+// Time: O(n) we traverse through all of elements in the original array once.
+// Space: O(1) other than the results array we don't create any additional data structure.
+
