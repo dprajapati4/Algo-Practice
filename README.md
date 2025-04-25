@@ -13,7 +13,7 @@ A repository of my algorithm practice.
 - [Linked List]()
 - [Queue](ADTs/Queue.js)
 - [Priority Queue](ADTs/PriorityQueue.js)
-  - [Binary Heaps](ADTs/BinaryHeaps.js)
+- [Binary Heaps](ADTs/BinaryHeaps.js)
 
 ## Arrays
 
@@ -47,6 +47,7 @@ A repository of my algorithm practice.
 - [Summary Ranges](Arrays/SummaryRanges.js)
 - [Trapping Rain Water](Arrays/TrappingRainWater.js)
 - [Merge Sorted Arrays](Arrays/MergeSortedArrays.js)
+- [Median Of Two Sorted Arrays](Arrays/MedianOfTwoSortedArrays.js)
 - [Number of Islands](Arrays/NumberOfIslands.js)
 - [Longest Mountain In Array](Arrays/LongestMountainInArray.js)
 
