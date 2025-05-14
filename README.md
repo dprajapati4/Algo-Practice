@@ -50,6 +50,7 @@ A repository of my algorithm practice.
 - [Median Of Two Sorted Arrays](Arrays/MedianOfTwoSortedArrays.js)
 - [Number of Islands](Arrays/NumberOfIslands.js)
 - [Longest Mountain In Array](Arrays/LongestMountainInArray.js)
+- [Top K Frequent Elements](Arrays/TopKFrequentElements.js)
 
 ## 2D Arrays
 
@@ -58,6 +59,7 @@ A repository of my algorithm practice.
 - [Spiral Matrix](2DArrays/SpiralMatrix.js)
 - [Rotate Image](2DArrays/RotateImage.js)
 - [Merge Intervals](2DArrays/MergeIntervals.js)
+- [Valid Sudoku](2DArrays/ValidSudoku.js)
 
 ## Dynamic Programming
 
