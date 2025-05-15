@@ -51,6 +51,7 @@ A repository of my algorithm practice.
 - [Number of Islands](Arrays/NumberOfIslands.js)
 - [Longest Mountain In Array](Arrays/LongestMountainInArray.js)
 - [Top K Frequent Elements](Arrays/TopKFrequentElements.js)
+- [Longest Consecutive Sequence](Arrays/LongestConsecutiveSequence.js)
 
 ## 2D Arrays
 

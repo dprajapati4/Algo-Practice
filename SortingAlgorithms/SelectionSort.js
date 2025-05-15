@@ -1,8 +1,8 @@
-//Sort an array from smallest to largest
+// Sort an array from smallest to largest
 
 // This function finds the smallest element in the array and stores its value and index
 const findSmallest = (array) => {
-  // initalizes and stores the values of the smallest value and its index in a variable
+  // initializes and stores the values of the smallest value and its index in a variable
   let smallest = array[0];
   let smallest_index = 0;
   console.log("the values at the start", smallest, smallest_index);
@@ -23,9 +23,9 @@ const findSmallest = (array) => {
 
 const selectionSort = (array) => {
   // initialized a new array
-const newArray = [];
+  const newArray = [];
   // Loops through the array and calls the findSmallest function on that array each time
-const cloneArray = [...array];
+  const cloneArray = [...array];
   for (let i = 0; i < array.length; i++) {
     console.log("the index", array.length);
     const smallestValueIndex = findSmallest(cloneArray);
