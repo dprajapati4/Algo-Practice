@@ -56,6 +56,7 @@ A repository of my algorithm practice.
 ## 2D Arrays
 
 - [Convert 1D Array Into 2D Array](2DArrays/Convert1DArrInto2DArr.js)
+- [Search A 2D Matrix](2DArrays/SearchA2DMatrix.js)
 - [Set Matrix Zeroes](2DArrays/SetMatrixZeroes.js)
 - [Spiral Matrix](2DArrays/SpiralMatrix.js)
 - [Rotate Image](2DArrays/RotateImage.js)
