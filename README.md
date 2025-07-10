@@ -22,6 +22,7 @@ A repository of my algorithm practice.
 - [Two Sum](Arrays/TwoSum.js)
 - [Two Sum II](Arrays/TwoSumII.js)
 - [3Sum](Arrays/3Sum.js)
+- [Max Consecutive Ones](Arrays/MaxConsecutiveOnes.js)
 - [Validate Subsequence](Arrays/ValidateSubsequence.js)
 - [Contains Duplicates](Arrays/ContainsDuplicates.js)
 - [Contains Duplicates II](Arrays/ContainsDuplicatesII.js)
