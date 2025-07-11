@@ -2,13 +2,15 @@
 
 // Return a string of the words in reverse order concatenated by a single space.
 
-// Approach using built in methods: Trim the string to remove leading and trailing spaces and then split the string and reverse it. Return the reversed words with the space between them.
+// Approach using built in methods: Trim the string to remove leading and trailing spaces and then split the string and reverse it. Return the reversed words joined with a space between them.
 
 const reverseWords = (s) => {
   s = s.trim();
   let reversedWords = s.split(/\s+/).reverse();
   return reversedWords.join(" ");
 };
+
+// can also do it as a one liner -> s.trim().split(/\s+/).reverse().join(' ')
 
 // BigO
 // Time Complexity: O(n) because we iterate over the string.

@@ -116,6 +116,7 @@ A repository of my algorithm practice.
 - [ValidPalindrome](Strings/ValidPalindrome.js)
 - [Backspace String Compare](Strings/BackspaceStringCompare.js)
 - [Is Subsequence](Strings/IsSubsequence.js)
+- [Rotate String](Strings/RotateString.js)
 - [Move Zeroes](Strings/MoveZeroes.js)
 - [Valid Anagram](Strings/ValidAnagram.js)
 - [Longest Substring Without Repeating Characters](Strings/LongestSubstringWithoutRepeatingCharacters.js)
