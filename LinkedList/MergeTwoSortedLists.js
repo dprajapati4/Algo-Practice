@@ -41,10 +41,10 @@ const recursivelyMergeTwoLists = (l1, l2) => {
   if (!l1 || !l2) return l1 ? l1 : l2;
   // Compares values and sets the next of list 1 to a recursive call
   if (l1.val < l2.val) {
-    l1.next = mergeTwoLists(l1.next, l2);
+    l1.next = recursivelyMergeTwoLists(l1.next, l2);
     return l1;
   } else {
-    l2.next = mergeTwoLists(l1, l2.next);
+    l2.next = recursivelyMergeTwoLists(l1, l2.next);
     return l2;
   }
 };
