@@ -16,3 +16,27 @@ const isSameTree = (p, q) => {
 // BigO
 // Time: O(n) we traverse through all of the nodes during DFS
 // Space: O(n) We calculate this from O(h) where h is the height of the tree, but it comes O(n) since the recursive call stack in the worst case will be the max height of the tree and equal the number of nodes,n, but a more balanced tree will have a log(n) space complexity.
+
+// BFS Approach: In BFS we start at the root and visit each children level by level. We each this iteratively by using a queue. We start with both roots in the queue and compare the nodes at each level. If they are ever unequal, we return false.
+
+const isSameTreeBFS = (p, q) => {
+  const queue = [[p, q]];
+
+  while (queue.length > 0) {
+    const [node1, node2] = queue.shift();
+
+    if (!node1 && !node2) continue;
+
+    if (!node1 || !node2) return false;
+    if (node1.val !== node2.val) return false;
+
+    queue.push([node1.left, node2.left]);
+    queue.push([node1.right, node2.right]);
+  }
+
+  return true;
+};
+
+// BigO
+// Time: O(n) we traverse through all of the nodes during BFS
+// Space: O(n) Because we create a queue that holds at max n items.
