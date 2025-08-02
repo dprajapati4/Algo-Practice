@@ -60,6 +60,7 @@ A repository of my algorithm practice.
 
 - [Convert 1D Array Into 2D Array](2DArrays/Convert1DArrInto2DArr.js)
 - [Search A 2D Matrix](2DArrays/SearchA2DMatrix.js)
+- [)01 Matrix](2DArrays/01Matrix.js)
 - [Set Matrix Zeroes](2DArrays/SetMatrixZeroes.js)
 - [Spiral Matrix](2DArrays/SpiralMatrix.js)
 - [Rotate Image](2DArrays/RotateImage.js)
