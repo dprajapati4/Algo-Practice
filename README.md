@@ -55,6 +55,7 @@ A repository of my algorithm practice.
 - [Longest Mountain In Array](Arrays/LongestMountainInArray.js)
 - [Top K Frequent Elements](Arrays/TopKFrequentElements.js)
 - [Longest Consecutive Sequence](Arrays/LongestConsecutiveSequence.js)
+- [Longest Repeating Character Replacement](Arrays/LongestRepeatingCharacterReplacement.js)
 
 ## 2D Arrays
 
