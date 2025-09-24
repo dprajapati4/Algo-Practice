@@ -56,6 +56,7 @@ A repository of my algorithm practice.
 - [Top K Frequent Elements](Arrays/TopKFrequentElements.js)
 - [Longest Consecutive Sequence](Arrays/LongestConsecutiveSequence.js)
 - [Longest Repeating Character Replacement](Arrays/LongestRepeatingCharacterReplacement.js)
+- [Longest Substring With At Most K Distinct Characters](Arrays/LongestSubstringwithAtMostKDistinctCharacters.js)
 
 ## 2D Arrays
 
