@@ -58,6 +58,7 @@ A repository of my algorithm practice.
 - [Longest Repeating Character Replacement](Arrays/LongestRepeatingCharacterReplacement.js)
 - [Longest Substring With At Most K Distinct Characters](Arrays/LongestSubstringwithAtMostKDistinctCharacters.js)
 - [Permutations In String](Arrays/PermutationsInString.js)
+- [Minimum Window Substring](Arrays/MinimumWindowSubstring.js)
 
 ## 2D Arrays
 
