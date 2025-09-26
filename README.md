@@ -118,6 +118,7 @@ A repository of my algorithm practice.
 - [Baseball Game](Stacks/BaseballGame.js)
 - [Evaluate Reverse Polish Notation](Stacks/EvaluateReversePolishNotation.js)
 - [Daily Temperatures](Stacks/DailyTemperatures.js)
+- [Minimum Stack](Stacks/MinimumStack.js)
 
 ## Strings
 
