@@ -45,3 +45,32 @@ const evalRPN = (tokens) => {
 // BigO
 // Time Complexity: O(n) where n is equal to the length of the tokens array.
 // Space Complexity: O(n) since we create a new stack.
+
+// Alternative using a map and the operations and a stack
+
+const evalRPN2 = (tokens) => {
+  const operators = {
+    "+": (a, b) => a + b,
+    "-": (a, b) => a - b,
+    "*": (a, b) => a * b,
+    "/": (a, b) => Math.trunc(a / b),
+  };
+  let stack = [];
+
+  for (let i = 0; i < tokens.length; i++) {
+    if (operators[tokens[i]]) {
+      let b = Number(stack.pop()); // right
+      let a = Number(stack.pop()); // left
+      let result = operators[tokens[i]](a, b);
+      stack.push(result);
+    } else {
+      stack.push(tokens[i]);
+    }
+  }
+
+  return stack.pop();
+};
+
+// BigO
+// Time Complexity: O(n) where n is equal to the length of the tokens array.
+// Space Complexity: O(n) since we create a new stack and a object, but the object has a fixed length.
