@@ -119,6 +119,7 @@ A repository of my algorithm practice.
 - [Evaluate Reverse Polish Notation](Stacks/EvaluateReversePolishNotation.js)
 - [Daily Temperatures](Stacks/DailyTemperatures.js)
 - [Minimum Stack](Stacks/MinimumStack.js)
+- [Simplify Path](Stacks/SimplifyPath.js)
 
 ## Strings
 
