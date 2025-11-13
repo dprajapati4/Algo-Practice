@@ -167,6 +167,7 @@ A repository of my algorithm practice.
 - [Subtree Of Another Tree](BinarySearchTree/DFS/SubtreeOfAnotherTree.js)
 - [Invert Binary Tree](BinarySearchTree/DFS/InvertBT.js)
 - [Search In A Binary Search Tree](BinarySearchTree/DFS/SearchInABT.js)
+- [Lowest Common Ancestor Of A Binary Search Tree](BinarySearchTree/DFS/LowestCommonAncestorOfABST.js)
 
 #### Backtracking
 
