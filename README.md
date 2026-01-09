@@ -121,6 +121,7 @@ A repository of my algorithm practice.
 - [Daily Temperatures](Stacks/DailyTemperatures.js)
 - [Minimum Stack](Stacks/MinimumStack.js)
 - [Simplify Path](Stacks/SimplifyPath.js)
+- [Car Fleet](Stacks/CarFleet.js)
 
 ## Strings
 
