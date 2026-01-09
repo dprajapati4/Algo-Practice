@@ -37,4 +37,27 @@ const carFleet = (target, position, speed) => {
 };
 // BigO
 // Time Complexity: O(n logn) because the map takes n time, the sorting takes n logn time and we iterate over the pair array one time. So n +  n logn + n -> 3nlogn -> nlogn
-// Space Complexity: O(n) since we create a new stack.
+// Space Complexity: O(n) since we create a new stack and array of tuples.
+
+// Iterative Approach: You can also solve this without using a stack, instead of storing fleets in the stack, you can track a fleets and prevTime value that is the time needed for the closest car to reach the target, than as you iterate over the cars, compare the time they need to reach the target. If the currTime is greater than the prevTime, it cannot catch up to the fleet and forms a new fleet so you can update fleets value and now set the prevTime to equal currTime. If the currTime is less than or equal to the prevTime, continue without updating anything. In the end return fleets value.
+
+const carFleetIterative = (target, position, speed) => {
+  let pair = position.map((p, i) => [p, speed[i]]);
+  pair.sort((a, b) => b[0] - a[0]);
+
+  let fleets = 1;
+  let prevTime = (target - pair[0][0]) / pair[0][1];
+
+  for (let i = 1; i < pair.length; i++) {
+    let currTime = (target - pair[i][0]) / pair[i][1];
+    if (currTime > prevTime) {
+      fleets++;
+      prevTime = currTime;
+    }
+  }
+  return fleets;
+};
+
+// BigO
+// Time Complexity: O(n logn) because the map takes n time, the sorting takes n logn time and we iterate over the pair array one time. So n +  n logn + n -> 3nlogn -> nlogn
+// Space Complexity: O(n) since we create a new array.
