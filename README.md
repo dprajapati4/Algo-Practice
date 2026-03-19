@@ -146,6 +146,7 @@ A repository of my algorithm practice.
 ## Binary Search
 
 - [Next Greatest Letter](BinarySearch/NextGreatestLetter.js)
+- [Minimum In Rotated Sorted Array](BinarySearch/MinimumInRotatedSortedArray.js)
 
 ## Binary Search Tree
 
