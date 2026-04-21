@@ -122,6 +122,7 @@ A repository of my algorithm practice.
 - [Minimum Stack](Stacks/MinimumStack.js)
 - [Simplify Path](Stacks/SimplifyPath.js)
 - [Car Fleet](Stacks/CarFleet.js)
+- [Largest Rectangle In Histogram](Stacks/LargestRectangleInHistogram.js)
 
 ## Strings
 
