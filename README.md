@@ -107,6 +107,7 @@ A repository of my algorithm practice.
 - [Reverse Linked List](LinkedList/ReverseLinkedList.js)
 - [Singly Linked List](LinkedList/SinglyLinkedList.js)
 - [Swap Nodes](LinkedList/SwapNodesSLL.js)
+- [Remove Node From End of Linked List](LinkedList/RemoveNodeFromEndOfLL.js)
 
 ## Sorting Algorithms
 
@@ -149,6 +150,7 @@ A repository of my algorithm practice.
 - [Next Greatest Letter](BinarySearch/NextGreatestLetter.js)
 - [Minimum In Rotated Sorted Array](BinarySearch/MinimumInRotatedSortedArray.js)
 - [Search In Rotated Sorted Array](BinarySearch/SearchInRotatedSortedArray.js)
+- [Time Based Key-Value Store](BinarySearch/TimeBasedKeyValueStore.js)
 
 ## Binary Search Tree
 
