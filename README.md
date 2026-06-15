@@ -151,6 +151,7 @@ A repository of my algorithm practice.
 - [Minimum In Rotated Sorted Array](BinarySearch/MinimumInRotatedSortedArray.js)
 - [Search In Rotated Sorted Array](BinarySearch/SearchInRotatedSortedArray.js)
 - [Time Based Key-Value Store](BinarySearch/TimeBasedKeyValueStore.js)
+- [Koko Eating Bananas](BinarySearch/KokoEatingBananas.js)
 
 ## Binary Search Tree
 
