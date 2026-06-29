@@ -103,7 +103,7 @@ A repository of my algorithm practice.
 - [Middle of the Linked List](LinkedList/MiddleOfLinkedList.js)
 - [Palindrome Linked List](LinkedList/PalindromeLinkedList.js)
 - [Remove Duplicates from Linked List](LinkedList/RemoveDuplicatesFromLinkedList.js)
-- [Remove Item From Linked List](LinkedList/RemoveItemLinkedList.js)
+- [Remove Linked List Elements](LinkedList/RemoveLinkedListElements.js)
 - [Reverse Linked List](LinkedList/ReverseLinkedList.js)
 - [Singly Linked List](LinkedList/SinglyLinkedList.js)
 - [Swap Nodes](LinkedList/SwapNodesSLL.js)
